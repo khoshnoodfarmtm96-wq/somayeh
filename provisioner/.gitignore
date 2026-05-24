@@ -1,0 +1,17 @@
+
+# 1. پوشه نصب پروایدرها (بسیار سنگین)
+.terraform/
+
+# 2. فایل‌های وضعیت (حاوی پسوردهای زیرساخت)
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# 3. فایل‌های متغیرهای شخصی (کلیدهای AWS و رمزها)
+*.tfvars
+*.tfvars.json
+
+# 4. فایل‌های اجرایی و فایل‌های لاگ
+*.exe
+*.log
+.terraform.lock.hclgit rm -r --cached .
