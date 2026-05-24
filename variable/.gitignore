@@ -1,0 +1,25 @@
+# Local .terraform folder
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Sensitive variable files
+*.tfvars
+# (اگر نمی‌خواهید مقادیر متغیرها لو برود، خط بالا را نگه دارید)
+
+# Crash logs
+crash.log# Local .terraform folder
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Sensitive variable files
+*.tfvars
+# (اگر نمی‌خواهید مقادیر متغیرها لو برود، خط بالا را نگه دارید)
+
+# Crash logs
+crash.log
